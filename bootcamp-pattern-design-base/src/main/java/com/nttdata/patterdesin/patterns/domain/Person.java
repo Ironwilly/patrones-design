@@ -10,7 +10,7 @@ public class Person implements PersonInterface {
 	
 	public final static Person INSTANCES = new Person ();
 
-	private Person() {
+	public Person() {
 		super();
 	
 	}
